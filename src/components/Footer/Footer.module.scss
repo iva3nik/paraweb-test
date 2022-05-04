@@ -36,6 +36,11 @@
     margin-left: 115px;
     color: white;
     transition: 0.3s linear;
+    font-family: "Manrope", serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
 
     &:hover {
       opacity: 0.6;
@@ -58,6 +63,92 @@
 
     &:hover {
       opacity: 0.6;
+    }
+  }
+
+  &__shortInfo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    padding: 80px 50px 76px 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 80px 50px 76px 20px;
+
+    &__link {
+      margin-left: 32px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 35px 0 32px 16px;
+    display: block;
+
+    &__logoColumn {
+      p {
+        display: none;
+      }
+    }
+
+    &__logo {
+      width: 93px;
+      height: 39px;
+    }
+
+    &__column {
+      flex-direction: column-reverse;
+    }
+
+    &__links {
+      padding: 0 118px 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 48px;
+    }
+
+    &__link {
+      font-size: 14px;
+    }
+
+    &__list {
+      margin-top: 14px;
+      margin-bottom: 33px;
+    }
+
+    &__shortInfo {
+      display: block;
+      p {
+        margin-top: 4px;
+        font-family: "Manrope", serif;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 500;
+        font-style: normal;
+        color: white;
+        opacity: 0.5;
+        &:first-of-type {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    &__link {
+      margin-left: 0;
+      &:nth-of-type(2n + 1) {
+        width: 157px;
+      }
     }
   }
 }

@@ -66,6 +66,10 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <div className={s.footer__shortInfo}>
+        <p>© ООО «Лого», 2008—2022</p>
+        <p>Лицензия на телематические услуги № 176267</p>
+      </div>
     </footer>
   );
 };
