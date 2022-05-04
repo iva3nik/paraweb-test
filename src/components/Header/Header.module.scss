@@ -1,0 +1,32 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px 138px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+  &__logo {
+    width: 74px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__info {
+    display: flex;
+    font-family: "Manrope", serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  &__text {
+    margin-left: 44px;
+  }
+}
