@@ -3,4 +3,20 @@
   box-sizing: border-box;
   width: 925px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+    width: 610px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .gallery {
+    max-width: 359px;
+    gap: 10px;
+  }
 }

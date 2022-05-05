@@ -17,6 +17,13 @@
     padding: 24px;
   }
 
+  &__text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+  }
+
   &__line {
     display: flex;
     align-items: center;
@@ -45,5 +52,11 @@
     border-radius: 10px;
     color: #595959;
     margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    width: 359px;
   }
 }
