@@ -1,0 +1,49 @@
+.card {
+  border: 1px solid #e8e8e8;
+  color: rgba(0, 0, 0, 0.65);
+  width: 295px;
+  font-family: "Manrope", serif;
+
+  &__header {
+    padding: 16px 0 16px 26px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    font-style: normal;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  &__info {
+    padding: 24px;
+  }
+
+  &__line {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  &__author {
+    padding: 0 13px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #092433;
+    border-radius: 10px;
+    color: white;
+    margin-right: 10px;
+  }
+
+  &__data {
+    border: 1px solid #e8e8e8;
+    padding: 0 8px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 10px;
+    color: #595959;
+    margin-right: 10px;
+  }
+}
