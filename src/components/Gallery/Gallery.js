@@ -6,7 +6,7 @@ import Card from "../Card/Card";
 
 import s from "./Gallery.module.scss";
 
-const Gallery = ({ listCards }) => {
+const Gallery = ({ listCards, handleInputAuthor }) => {
   return (
     <section className={s.gallery}>
       <div className={s.gallery__inputs}>
@@ -16,6 +16,7 @@ const Gallery = ({ listCards }) => {
             name="author"
             type="text"
             placeholder="Выберите автора"
+            onChange={handleInputAuthor}
           />
           <img src={user} alt="user icon" />
         </div>
@@ -35,9 +36,8 @@ const Gallery = ({ listCards }) => {
         </div>
       </div>
       <div className={s.gallery__container}>
-        {listCards.map((card, index) => (
-          <Card key={index} card={card} />
-        ))}
+        {listCards &&
+          listCards.map((card, index) => <Card key={index} card={card} />)}
       </div>
     </section>
   );
