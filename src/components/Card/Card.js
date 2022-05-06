@@ -2,19 +2,28 @@ import React from "react";
 
 import s from "./Card.module.scss";
 
-const Card = () => {
+const Card = ({ card }) => {
+  const options = {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  };
+
+  const getDate = (str) => {
+    const date = new Date(str);
+    return date.toLocaleString("ru", options);
+  };
+
   return (
     <div className={s.card}>
-      <h2 className={s.card__header}>Заголовок карточки</h2>
+      <h2 className={s.card__header}>{card.title}</h2>
       <div className={s.card__info}>
-        <p className={s.card__text}>
-          Задайте любой вопрос о продукте, его настройках, трудностях в работе
-          или неполадках. Поддержка работает 24/7, специалисты ответят в течение
-          15 минут и помогут со всем разобраться.
-        </p>
+        <p className={s.card__text}>{card.content}</p>
         <div className={s.card__line}>
-          <p className={s.card__author}>Василий Пупкин</p>
-          <p className={s.card__data}>24 февраля 2022</p>
+          <p className={s.card__author}>
+            {card.author ? card.author : "Unknown"}
+          </p>
+          <p className={s.card__data}>{getDate(card.publishedAt)}</p>
         </div>
       </div>
     </div>

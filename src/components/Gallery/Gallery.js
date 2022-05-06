@@ -6,9 +6,7 @@ import Card from "../Card/Card";
 
 import s from "./Gallery.module.scss";
 
-const listCards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-const Gallery = () => {
+const Gallery = ({ listCards }) => {
   return (
     <section className={s.gallery}>
       <div className={s.gallery__inputs}>
@@ -37,8 +35,8 @@ const Gallery = () => {
         </div>
       </div>
       <div className={s.gallery__container}>
-        {listCards.map((i, index) => (
-          <Card key={index} />
+        {listCards.map((card, index) => (
+          <Card key={index} card={card} />
         ))}
       </div>
     </section>
