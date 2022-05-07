@@ -6,6 +6,7 @@ import * as main from "./utils/MainApi";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Gallery from "./components/Gallery/Gallery";
+import SwiperBlock from "./components/SwiperBlock/SwiperBlock";
 
 function App() {
   const [listCards, setListCard] = useState([]);
@@ -41,6 +42,7 @@ function App() {
   return (
     <div className={s.app}>
       <Header />
+      <SwiperBlock />
       <Gallery listCards={listCards} handleInputAuthor={handleInputAuthor} />
       <Footer />
     </div>
