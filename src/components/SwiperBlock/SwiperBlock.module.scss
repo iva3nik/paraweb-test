@@ -33,3 +33,52 @@
     width: 453px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .swiper {
+    &__image {
+      height: 450px;
+    }
+
+    &__content {
+      left: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    &__image {
+      height: 400px;
+    }
+
+    &__content {
+      left: 100px;
+    }
+
+    &__title {
+      font-size: 20px;
+      line-height: 27px;
+      margin-bottom: 12px;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 19px;
+      width: 360px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .swiper {
+    &__image {
+      height: 280px;
+    }
+
+    &__content {
+      left: 15px;
+      bottom: 50px;
+    }
+  }
+}
