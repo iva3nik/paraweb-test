@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/paraweb-test/static/css/main.469d7b7a.css",
-    "main.js": "/paraweb-test/static/js/main.8a7c8c6f.js",
+    "main.css": "/paraweb-test/static/css/main.c51c4e62.css",
+    "main.js": "/paraweb-test/static/js/main.d0147739.js",
     "static/js/787.47f1a9b8.chunk.js": "/paraweb-test/static/js/787.47f1a9b8.chunk.js",
     "static/media/background_1.png": "/paraweb-test/static/media/background_1.b6f409f7abf173f438ba.png",
     "static/media/Manrope-SemiBold.ttf": "/paraweb-test/static/media/Manrope-SemiBold.33d2f89e0616126658af.ttf",
@@ -19,12 +19,12 @@
     "index.html": "/paraweb-test/index.html",
     "static/media/icon_telegram.svg": "/paraweb-test/static/media/icon_telegram.c2c73958b07faaa1d86acea9bc8748a9.svg",
     "static/media/icon_h.svg": "/paraweb-test/static/media/icon_h.028976db24a0d120548b1f367ad0a83c.svg",
-    "main.469d7b7a.css.map": "/paraweb-test/static/css/main.469d7b7a.css.map",
-    "main.8a7c8c6f.js.map": "/paraweb-test/static/js/main.8a7c8c6f.js.map",
+    "main.c51c4e62.css.map": "/paraweb-test/static/css/main.c51c4e62.css.map",
+    "main.d0147739.js.map": "/paraweb-test/static/js/main.d0147739.js.map",
     "787.47f1a9b8.chunk.js.map": "/paraweb-test/static/js/787.47f1a9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.469d7b7a.css",
-    "static/js/main.8a7c8c6f.js"
+    "static/css/main.c51c4e62.css",
+    "static/js/main.d0147739.js"
   ]
 }
