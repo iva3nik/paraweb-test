@@ -6,7 +6,12 @@ import Card from "../Card/Card";
 
 import s from "./Gallery.module.scss";
 
-const Gallery = ({ listCards, handleInputAuthor }) => {
+const Gallery = ({
+  listCards,
+  handleInputAuthor,
+  handleInputDataFrom,
+  handleInputDataTill,
+}) => {
   return (
     <section className={s.gallery}>
       <div className={s.gallery__inputs}>
@@ -26,12 +31,14 @@ const Gallery = ({ listCards, handleInputAuthor }) => {
             name="from"
             type="date"
             placeholder="От"
+            onChange={handleInputDataFrom}
           />
           <input
             className={s.gallery__dataInput}
             name="till"
             type="date"
             placeholder="~ До"
+            onChange={handleInputDataTill}
           />
         </div>
       </div>
