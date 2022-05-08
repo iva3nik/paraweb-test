@@ -13,63 +13,63 @@ const mockup = [
     title: "asdkfjskadjfksa",
     content:
       "asdfsdkjahfkjsadhfkjhsadfkjshadkfjhaskdjfhkasdjhfklsajdhfsakdjhflsadjhf",
-    author: "Nikitin Ivan",
+    author: "Semerenko Luda",
     publishedAt: "2022-03-25T05:33:43Z",
   },
   {
     title: "asdkfjskadjfksa",
     content:
       "asdfsdkjahfkjsadhfkjhsadfkjshadkfjhaskdjfhkasdjhfklsajdhfsakdjhflsadjhf",
-    author: "Smirnov Misha",
+    author: "Davudenko Nikolai",
     publishedAt: "2022-04-25T05:33:43Z",
   },
   {
     title: "asdkfjskadjfksa",
     content:
       "asdfsdkjahfkjsadhfkjhsadfkjshadkfjhaskdjfhkasdjhfklsajdhfsakdjhflsadjhf",
-    author: "Sasha Golubev",
+    author: "Turnaev Daniil",
     publishedAt: "2022-05-25T05:33:43Z",
   },
   {
     title: "asdkfjskadjfksa",
     content:
       "asdfsdkjahfkjsadhfkjhsadfkjshadkfjhaskdjfhkasdjhfklsajdhfsakdjhflsadjhf",
-    author: "Tima Rubchenko",
+    author: "Kravchenko Dmitrii",
     publishedAt: "2022-04-22T05:33:43Z",
   },
   {
     title: "asdkfjskadjfksa",
     content:
       "asdfsdkjahfkjsadhfkjhsadfkjshadkfjhaskdjfhkasdjhfklsajdhfsakdjhflsadjhf",
-    author: "Masha Zolotoya",
+    author: "Zolotoreva Maria",
     publishedAt: "2022-04-23T05:33:43Z",
   },
   {
     title: "asdkfjskadjfksa",
     content:
       "asdfsdkjahfkjsadhfkjhsadfkjshadkfjhaskdjfhkasdjhfklsajdhfsakdjhflsadjhf",
-    author: "Nika Sidorenko",
+    author: "Sidorchuk Evgenii",
     publishedAt: "2022-04-25T05:33:43Z",
   },
   {
     title: "asdkfjskadjfksa",
     content:
       "asdfsdkjahfkjsadhfkjhsadfkjshadkfjhaskdjfhkasdjhfklsajdhfsakdjhflsadjhf",
-    author: "Zmud Serega",
+    author: "Kuskov Alexandr",
     publishedAt: "2020-04-25T05:33:43Z",
   },
   {
     title: "asdkfjskadjfksa",
     content:
       "asdfsdkjahfkjsadhfkjhsadfkjshadkfjhaskdjfhkasdjhfklsajdhfsakdjhflsadjhf",
-    author: "Nikitin Serega",
+    author: "Zuikov Sergei",
     publishedAt: "2022-04-25T05:33:43Z",
   },
   {
     title: "asdkfjskadjfksa",
     content:
       "asdfsdkjahfkjsadhfkjhsadfkjshadkfjhaskdjfhkasdjhfklsajdhfsakdjhflsadjhf",
-    author: "Olesya Kuzmina",
+    author: "Olesya Svetlanenko",
     publishedAt: "2021-04-25T05:33:43Z",
   },
 ];
@@ -145,10 +145,10 @@ function App() {
     main
       .getListCards()
       .then((data) => {
-        // setListCard(data.articles);
-        // localStorage.setItem("listCards", JSON.stringify(data.articles));
-        setListCard(mockup);
-        localStorage.setItem("listCards", JSON.stringify(mockup));
+        setListCard(data.articles);
+        localStorage.setItem("listCards", JSON.stringify(data.articles));
+        // setListCard(mockup);
+        // localStorage.setItem("listCards", JSON.stringify(mockup));
       })
       .catch((err) => console.log(err));
   }, []);
