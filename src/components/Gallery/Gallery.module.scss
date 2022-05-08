@@ -3,12 +3,17 @@
   box-sizing: border-box;
   width: 925px;
   margin: 0 auto;
+  position: relative;
 
   &__inputs {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     flex-wrap: wrap;
     gap: 20px;
+    position: sticky;
+    top: 88px;
+    background-color: #fff;
   }
 
   &__author {
