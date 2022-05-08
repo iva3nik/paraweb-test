@@ -86,6 +86,14 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .gallery {
+    &__inputs {
+      top: 56px;
+    }
+  }
+}
+
 @media screen and (max-width: 640px) {
   .gallery {
     max-width: 359px;
