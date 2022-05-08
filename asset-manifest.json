@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/paraweb-test/static/css/main.a0f2296f.css",
+    "main.css": "/paraweb-test/static/css/main.fb9e7f8f.css",
     "main.js": "/paraweb-test/static/js/main.4bbccc2f.js",
     "static/js/787.47f1a9b8.chunk.js": "/paraweb-test/static/js/787.47f1a9b8.chunk.js",
     "static/media/background_1.png": "/paraweb-test/static/media/background_1.b6f409f7abf173f438ba.png",
@@ -19,12 +19,12 @@
     "index.html": "/paraweb-test/index.html",
     "static/media/icon_telegram.svg": "/paraweb-test/static/media/icon_telegram.c2c73958b07faaa1d86acea9bc8748a9.svg",
     "static/media/icon_h.svg": "/paraweb-test/static/media/icon_h.028976db24a0d120548b1f367ad0a83c.svg",
-    "main.a0f2296f.css.map": "/paraweb-test/static/css/main.a0f2296f.css.map",
+    "main.fb9e7f8f.css.map": "/paraweb-test/static/css/main.fb9e7f8f.css.map",
     "main.4bbccc2f.js.map": "/paraweb-test/static/js/main.4bbccc2f.js.map",
     "787.47f1a9b8.chunk.js.map": "/paraweb-test/static/js/787.47f1a9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0f2296f.css",
+    "static/css/main.fb9e7f8f.css",
     "static/js/main.4bbccc2f.js"
   ]
 }
